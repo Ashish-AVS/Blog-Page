@@ -5,9 +5,10 @@ import Typography from "@material-ui/core/Typography";
 
 import PostHeader from "./post-header";
 import classes from "./post-content.module.css";
+import PostFooter from "./post-footer";
 
 export default function PostContent({ posts }) {
-  const imagePath = `/images/posts/${posts.slug}/${posts.image}`;
+  const imagePath = `/images/posts/${posts.image}`;
   return (
     <article className={classes.content}>
       <Container maxWidth="md">
@@ -15,6 +16,7 @@ export default function PostContent({ posts }) {
         <Typography variant="body1" gutterBottom>
           <div className={classes.blogContent}><ReactMarkdown>{posts.content}</ReactMarkdown></div>
         </Typography>
+        <PostFooter />
       </Container>
     </article>
   );

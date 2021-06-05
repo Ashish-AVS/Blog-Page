@@ -1,7 +1,7 @@
 ---
 title: 'Molecular Mechanics'
 date: '2022-10-16'
-image: https://picsum.photos/200/200
+image: alchemy-molecular-mechanics.jpg
 excerpt: A great machine isn’t about huge things, it is about small things making a huge difference.’ While it may seem small, the ripple effects are extraordinary.
 isFeatured: true
 ---

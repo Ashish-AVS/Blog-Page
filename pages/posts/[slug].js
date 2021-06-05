@@ -1,5 +1,5 @@
 import PostContent from '../../components/posts/post-detail/post-content'
-import {getPostData} from '../../lib/posts-util'
+import {getPostData, getPostsFiles} from '../../lib/posts-util'
 
 const PostDetailPage = (props) => {
   return <>
@@ -12,8 +12,10 @@ export default PostDetailPage;
 // with dashes and all
 
 export async function getStaticPaths(context){
+  const postFileNames = getPostsFiles();
+  const slugs = postFileNames.map(fileName => fileName.replace(/\.md$/, ''))
   return{
-    paths: [],
+    paths: slugs.map(slug => ({params: {slug: slug}})),
     fallback: 'blocking'
   }
 }

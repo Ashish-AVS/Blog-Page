@@ -10,11 +10,11 @@ export default function PostHeader(props) {
       <header className={classes.header}>
         <h1>{title}</h1>
         <Image
-        //   src={image}
-          src="/images/posts/test.jpg"
+          src={image}
+          // src="/images/posts/test.jpg"
           alt={title}
-          width={400}
-          height={200}
+          width={500}
+          height={300}
           layout="responsive"
         />
       </header>
