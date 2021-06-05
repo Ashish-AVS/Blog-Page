@@ -18,20 +18,23 @@ export default function PostItem(props) {
         <a>
           <div className={classes.image}>
             <Image
-              src={imagePath}
+              // src={imagePath}
+              src="/images/posts/test.jpg"
               alt={title}
-              width={300}
-              height={200}
+              width={390}
+              height={220}
               layout="responsive"
             />
           </div>
           <div className={classes.content}>
             <h3>{title}</h3>
-            <time>{formattedDate}</time>
             <p>{excerpt}</p>
+            <time>{formattedDate}</time>
+            <p>Ashish</p>
           </div>
         </a>
       </Link>
     </li>
   );
 }
+
