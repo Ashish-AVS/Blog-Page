@@ -10,14 +10,12 @@ Multithreading is the ability of a central processing unit (CPU) (or a single co
 
 Multithreading tries to increase the use of a single core by exploiting thread-level parallelism as well as instruction-level parallelism in multiprocessing systems with several full processing units in one or more cores.
 Because the two approaches are complementary, they are used together in practically all modern system architectures that include multiple multithreading CPUs and multithreading cores.
-<br>
+
 ##Overview
 As efforts to utilise instruction-level parallelism have languished since the late 1990s, the multithreading paradigm has grown in popularity. Throughput computing was able to re-emerge from the more specialised field of transaction processing as a result of this. Even though it's tough to speed up a single thread or programme even further, most computer systems multitask between numerous threads or programmes. As a result, strategies that increase the throughput of all jobs improve overall performance.
-<br>
 
 Multithreading and multiprocessing are two main strategies for high-throughput computing.
 
-<br>
 ##Advantages
 If a thread has a high number of cache misses, the other threads can continue to utilise the unused computing resources, potentially resulting in faster overall execution, as these resources would have remained idle if only one thread was running. Additionally, if a thread can't utilise all of the CPU's computational resources (due to instructions that rely on each other's results), another thread can keep those resources from being idle.
 
