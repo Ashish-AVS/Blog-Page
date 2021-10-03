@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className={classes.footer}>
         <div>
-        Made with ❤ in NextJs
+        Made By Alchemy @ BITS Pilani
         </div>
         <a href="https://github.com/Ashish-AVS/NextJs-Blog">GitHub</a>
     </footer>
