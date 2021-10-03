@@ -1,7 +1,7 @@
 ---
 title: "Parallel Computing"
 date: "2022-10-16"
-image: IBM_Blue_Gene_P_supercomputer.jpg.png
+image: IBM_Blue_Gene_P_supercomputer.jpg
 excerpt: The Name says it all!
 isFeatured: true
 ---
