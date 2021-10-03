@@ -18,11 +18,7 @@ Alan Turing's more detailed Proposed Electronic Calculator for the Automatic Com
 The term “architecture” in computer literature can be traced to the work of Lyle R. Johnson and Frederick P. Brooks, Jr., members of the Machine Organization department in IBM's main research center in 1959. Johnson had the opportunity to write a proprietary research communication about the Stretch, an IBM-developed supercomputer for Los Alamos National Laboratory (at the time known as Los Alamos Scientific Laboratory). To describe the level of detail for discussing the luxuriously embellished computer, he noted that his description of formats, instruction types, hardware parameters, and speed enhancements were at the level of “system architecture”, a term that seemed more useful than “machine organization”.
 
 
-The earliest computer architectures were designed on paper and then directly built into the final hardware form. Later, computer architecture prototypes were physically built in the form of a transistor–transistor logic (TTL) computer—such as the prototypes of the 6800 and the PA-RISC—tested, and tweaked, before committing to the final hardware form. As of the 1990s, new computer architectures are typically "built", tested, and tweaked—inside some other computer architecture in a computer architecture simulator; or inside a FPGA as a soft microprocessor; or both—before committing to the final hardware form.
-
-Subcategories
-The discipline of computer architecture has three main subcategories:
-
+The earliest computer architectures were designed on paper and then directly built into the final hardware form. 
 ## Instruction set architecture (ISA):
 It defines the machine code that a processor reads and acts upon as well as the word size, memory address modes, processor registers, and data type.
 Microarchitecture: also known as "computer organization", this describes how a particular processor will implement the ISA.
